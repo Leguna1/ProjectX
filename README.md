@@ -6,10 +6,15 @@ I focused on creating smart AIs and damage system component first 3 weeks of the
 Both AIs and Player uses same damage and stats components to take damage from each other and respond to damage but they have different attacks component because I wanted to keep player's abilities for itself.
 
 Path to Damage system: Content/Developers/KalE/Systems/DamageSystem   (The player blueprint can be found here too)
+
 Path to Stats system: Content/Developers/KalE/Systems/Stats
+
 Path to AIs: Content/Developers/KalE/Systems/AI
+
 Path to Projectiles: Content/Developers/KalE/Systems/AoE & Projectiles
+
 Path to AI Attacks component: Content/Developers/KalE/Systems/Abilities (BPC_Attacks)
+
 Path to Player abilities: Content/Developers/KalE/Systems/Abilities/AbilityBase (BPC_RogueAbility)
 
 Path to UI Widgets: Content/Developers/KalE/Systems/Widget
@@ -21,3 +26,4 @@ The level has only melee type enemies and only few of them because of my lazines
 Player ability types:
 Basic single target attack, AoE attack, stun attack, sleep attack, and damage is determined by player's attack power and enemy's defence power.
 Player has 4 directional flip-move to dodge attacks. (Press Shift while moving) to execute.
+
